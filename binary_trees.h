@@ -13,8 +13,6 @@
 
 
 /** Binary Trees **/
-
-/** Basic Binary Tree **/
 struct binary_tree_s
 {
     int n;
@@ -32,5 +30,6 @@ void binary_tree_print(const binary_tree_t *);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);/** 0 **/
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);/** 1 **/
 void binary_tree_delete(binary_tree_t *tree);/** 3 **/
+int binary_tree_is_root(const binary_tree_t *node);/** 5 **/
 
 #endif /* BINARY_TREES_H */
