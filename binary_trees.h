@@ -32,5 +32,5 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);/** 1 *
 void binary_tree_delete(binary_tree_t *tree);/** 3 **/
 int binary_tree_is_root(const binary_tree_t *node);/** 5 **/
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));/** 7 **/
-
+size_t binary_tree_height(const binary_tree_t *tree);/** 9 **/
 #endif /* BINARY_TREES_H */
