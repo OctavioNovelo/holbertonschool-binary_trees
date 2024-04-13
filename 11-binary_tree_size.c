@@ -12,7 +12,7 @@ size_t binary_tree_size(const binary_tree_t *tree)
     {
       count++;
       tree->left;
-      tree->rigth;
+      tree->right;
     }
   return (count);
 }
